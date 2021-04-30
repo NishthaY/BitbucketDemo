@@ -1,0 +1,1 @@
+insert into "CompanyParentImportData" ( "CompanyParentId", "Company") values ( ?, ? )

@@ -1,0 +1,12 @@
+USAGE:
+    php index.php tools EmailTool
+    php index.php tools EmailTool company
+    php index.php tools EmailTool companyparent
+
+This interactive tool will allow the user to select an identifier by type, 'company' or
+'companyparent'.  Once selected the user running the tool will then receive sample emails
+for the specified identifier to the email address associated with their account.
+
+
+
+

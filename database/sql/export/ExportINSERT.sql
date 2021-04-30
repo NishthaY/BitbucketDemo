@@ -1,0 +1,1 @@
+insert into "Export" ( "Identifier", "IdentifierType", "Status" ) values ( ?, ?, ? )

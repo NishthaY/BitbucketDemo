@@ -1,0 +1,167 @@
+/* Custom-modal */
+/* Colors the top bar in the form modal dialog. */
+.custom-modal-title {
+    background-color: #253F8E !important;
+}
+/*
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+Text Colors
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+*/
+.text-primary { color: #00aeef; }
+
+/*
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+Text Colors ( core.css )
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+*/
+.header-title {
+  text-transform: none !important;
+}
+
+/*
+Primary Buttons
+Forms "submit" buttons are primary buttons.
+This CSS will style them and is a copy fo the default button
+defined by markup. (see styles.css)
+*/
+.btn-primary {
+ background-color: #00aeef !important;
+ border: 1px solid #00aeef !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.open > .dropdown-toggle.btn-primary {
+  background-color: #23408f !important;
+  border: 1px solid #23408f !important;
+}
+
+.bg-primary {
+  background-color: #23408f !important;
+}
+
+/*
+Form Default Buttons
+Default buttons on a form will appear white a deminished, unlike defaut
+buttons outside of a form that are the hot blue color.
+*/
+form .btn-default {
+ background-color: white !important;
+ border: 1px solid #ccc !important;
+ color: #797979 !important;
+}
+
+form .btn-info {
+ background-color: #3399cc !important;
+ border: 1px solid #2f8dbc !important;
+ color: white !important;
+}
+
+form .btn-success:hover,
+form .btn-success:focus,
+form .btn-success:active,
+.open > .dropdown-toggle.btn-success,
+form .btn-info:hover,
+form .btn-info:focus,
+form .btn-info:active,
+.open > .dropdown-toggle.btn-info,
+form .btn-default:hover,
+form .btn-default:focus,
+form .btn-default:active,
+.open > .dropdown-toggle.btn-default,
+form .btn-danger:hover,
+form .btn-danger:focus,
+form .btn-danger:active,
+.open > form .dropdown-toggle.btn-danger {
+  background-color: #23408f !important;
+  border: 1px solid #23408f !important;
+  color: white !important;
+}
+
+
+
+/*
+Side Bar ( Large Menu On Click Look )
+When the side menu is open and you click a top level item, this
+style will be what is shown while the page reloads.
+*/
+#sidebar-menu .subdrop {
+  background: #23408f !important;
+  border-left: 3px solid #23408f !important;
+  color: white !important;
+}
+
+/*
+Side Bar ( Small Menu On Hover Look )
+When the side menu is collapsed into it's icon only state, this is what
+the hover over menu items will look like.
+*/
+#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover > a {
+  border-left: 3px solid transparent !important;
+  color: rgb(0, 173, 238) !important;
+ }
+
+/*
+Primary Panel.
+This colors the text and top line the dark blue color
+*/
+ .panel-border.panel-primary .panel-heading {
+   border-color: #23408f !important;
+   color: #23408f !important;
+ }
+
+/*
+Progress bar
+*/
+ .progress-bar-primary {
+   background-color: #23408f;
+ }
+
+
+
+/*
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+Widget (background-icon)
+  originates from components.css
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+*/
+.bg-icon {
+    height: 62px !important;
+    width: 62px !important;
+    line-height: 60px !important;
+    margin-top: 10px;
+    border-width: 2px !important;
+    background-color: transparent !important;
+    vertical-align: middle !important;
+}
+
+.bg-icon-primary {
+    border-color: #00aeef !important;
+    background-color: white !important;
+}
+.bg-icon i {
+    font-size: 32px !important;
+    line-height: 60px !important;
+    font-style: normal;
+}
+
+
+.transaction-list .tran-text {
+  width: auto !important;
+}
+
+/* SELECT2 */
+/*    Make sure the container is higher than our modal dialogs. */
+.select2-container {
+    z-index: 20000;
+}
+/*    The mouse hover needs to match our colors. */
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #00aeef;
+}

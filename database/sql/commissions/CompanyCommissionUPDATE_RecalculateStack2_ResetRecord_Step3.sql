@@ -1,0 +1,1 @@
+update "CompanyCommission" set "ResetRecord" = true where "Id" = ?

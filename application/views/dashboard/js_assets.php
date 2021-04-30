@@ -1,0 +1,16 @@
+<script src="<?=base_url();?>assets/custom/js/dashboard/s3_upload.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/wizard.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/wizard/wizard.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/review.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/getting_started.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/skip_month.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/admin.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/tools.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/security.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/companies/companies.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/companyparent/parents.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/companies/rollback.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/companyparent/rollback.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/parent.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/default.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/report_download_list.js<?=CachedQS()?>"></script>

@@ -1,0 +1,1 @@
+delete from "CompanyBeneficiaryImport" where "CompanyId" = ? and "ImportDate" = ?

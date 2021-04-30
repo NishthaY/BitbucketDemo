@@ -1,0 +1,1 @@
+select "Verbiage" as "Words" from "Verbiage" where "Group" = ? and "Key" = ?

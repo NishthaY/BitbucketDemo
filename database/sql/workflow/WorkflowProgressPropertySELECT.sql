@@ -1,0 +1,1 @@
+select * from "WorkflowProgressProperty" where "WorkflowId" = ? and "Identifier" = ? and "IdentifierType" = ? and "Name" = ?

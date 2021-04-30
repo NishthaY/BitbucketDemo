@@ -1,0 +1,21 @@
+USAGE:
+    php index.php tools RemoveCompany
+    php index.php tools RemoveCompany remove
+    php index.php tools RemoveCompany all
+
+Remove one or all companies in the current runtime environment.
+Please note, this is super destructive.  You will not only
+purge the database of this company, but S3 files and IAM
+security keys as well.
+
+
+php index.php tools RemoveCompany
+  This help screen.
+
+php index.php tools RemoveCompany remove
+  Select from a list of know companies and choose the one you want
+  to remove.
+
+php index.php tools RemoveCompany remove_all
+  Remove all companies in the current runtime environment.
+

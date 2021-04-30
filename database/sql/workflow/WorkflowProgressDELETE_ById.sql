@@ -1,0 +1,1 @@
+delete from "WorkflowProgress" where "Id" = ?

@@ -1,0 +1,1 @@
+select * from "ObjectMapping" where "Code" = ? and "Input" = ?

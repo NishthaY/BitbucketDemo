@@ -1,0 +1,1 @@
+insert into "CompanyParentFeature" ( "CompanyParentId", "FeatureCode", "Enabled", "Target" ) values ( ?,?,?, ? )

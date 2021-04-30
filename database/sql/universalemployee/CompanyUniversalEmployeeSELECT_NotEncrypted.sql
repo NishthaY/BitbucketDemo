@@ -1,0 +1,1 @@
+select * from "CompanyUniversalEmployee" where "CompanyId" = ? and "Finalized" = false

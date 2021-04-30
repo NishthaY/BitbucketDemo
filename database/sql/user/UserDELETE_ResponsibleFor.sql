@@ -1,0 +1,1 @@
+delete from "UserResponsibleForCompany" where "UserId" = ? and "CompanyId" = ? and "ParentCompanyId" = ?

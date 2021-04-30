@@ -1,0 +1,1 @@
+Normalize data on import using a regex replace expression for a specific mapping column.

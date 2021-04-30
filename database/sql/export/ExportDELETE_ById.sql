@@ -1,0 +1,1 @@
+delete from "Export" where "Id" = ?

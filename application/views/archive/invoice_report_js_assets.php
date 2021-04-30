@@ -1,0 +1,1 @@
+<script type="text/javascript" src="<?=base_url()?>assets/custom/js/archive/invoice_report.js<?=CachedQS()?>"></script>

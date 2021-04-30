@@ -1,0 +1,5 @@
+.redBorder{ border: 1px solid red !important; }
+.blueBorder{ border: 1px solid blue !important; }
+.greenBorder{ border: 1px solid green !important; }
+.ugly { background-color: aquamarine !important; font-weight: no !important; }
+.developer-tools { color: #ffa64d; cursor:pointer;}

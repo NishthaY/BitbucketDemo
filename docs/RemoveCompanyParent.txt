@@ -1,0 +1,24 @@
+USAGE:
+    php index.php tools RemoveCompanyParent
+    php index.php tools RemoveCompanyParent remove
+    php index.php tools RemoveCompanyParent all
+
+Remove one or all parents in the current runtime environment.
+Please note, this is super destructive.  You will not only
+purge the database of this parent, but S3 files and IAM
+security keys as well.
+
+NOTE: This will not remove companies associated with the parent.
+They will still exist and no longer be bound to a parent.
+
+
+php index.php tools RemoveCompanyParent
+  This help screen.
+
+php index.php tools RemoveCompanyParent remove
+  Select from a list of know parents and choose the one you want
+  to remove.
+
+php index.php tools RemoveCompanyParent remove_all
+  Remove all parents in the current runtime environment.
+

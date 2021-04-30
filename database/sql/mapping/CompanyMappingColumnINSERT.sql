@@ -1,0 +1,1 @@
+insert into "CompanyMappingColumn" ( "CompanyId", "Name", "Display", "Required", "DefaultValue", "ColumnName", "Encrypted", "Conditional", "ConditionalList", "NormalizationRegEx" ) values ( ?,?,?,?,?,?,?,?,?,? )

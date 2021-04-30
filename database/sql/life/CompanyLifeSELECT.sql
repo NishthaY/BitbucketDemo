@@ -1,0 +1,1 @@
+select "Id", "FirstName", "LastName", "EmployeeId", "DateOfBirth" from "CompanyLife" where "CompanyId" = ? limit ?

@@ -1,0 +1,20 @@
+USAGE:
+    php index.php tools AWSReports
+
+A collection of tools that you can execute the A2P AWS reports stored
+on S3.
+
+The script is interactive and it will collect the company, report and import
+date you need to resend.  Not all reports are supported, the tool will tell
+you which ones are available.
+
+php index.php tools AWSReports
+  This help screen.
+
+php index.php tools AWSReports resend
+  Select the report you wish to resend to AWS and transmit it.
+
+php index.php tools AWSReports search
+  Search the application bucket looking for company reports that have zero
+  length files.  Any hits will display the AWS file object to the screen.
+

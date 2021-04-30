@@ -1,0 +1,1 @@
+delete from "ImportLifeWorker" where "CompanyId" = ? and "ImportDate" = ?

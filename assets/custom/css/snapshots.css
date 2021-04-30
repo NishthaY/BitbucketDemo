@@ -1,0 +1,17 @@
+.snapshot a {
+  color: #797979;
+}
+.snapshot td {
+  vertical-align: middle !important;
+  position: relative;
+}
+.snapshot td:last-of-type {
+  width: 120px;
+  padding-right: 20px;
+}
+.snapshot td:first-of-type {
+    width: 30px;
+}
+.snapshot td:nth-of-type(2) {
+    width: 130px;
+}

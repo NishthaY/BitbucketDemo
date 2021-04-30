@@ -1,0 +1,1 @@
+delete from "CompanyParent" where "Id" = ?

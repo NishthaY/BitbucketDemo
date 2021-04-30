@@ -1,0 +1,17 @@
+USAGE:
+    php index.php tools Dyno
+
+A collection of heroku dyno research tools.
+
+
+php index.php tools Dyno
+  This help screen.
+
+php index.php tools Dyno find
+  List all running dynos.
+
+php index.php tools Dyno info <dyno_name>
+  List detailed information about a specific dyno.
+
+php index.php tools Dyno test
+  This will test the creation of a one-off dyno.

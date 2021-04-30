@@ -1,0 +1,1 @@
+update "KeyPool" set "Enabled" = false where "Id" = ?

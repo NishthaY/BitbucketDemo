@@ -1,0 +1,1 @@
+insert into "HistoryEmail" ( "CompanyParentId", "CompanyId", "UserId", "To", "ToAddress", "From", "FromAddress", "Subject", "Body") values ( ?,?,?,?,?,?,?,?,? )

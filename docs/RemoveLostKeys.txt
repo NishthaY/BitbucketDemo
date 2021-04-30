@@ -1,0 +1,30 @@
+USAGE:
+    php index.php tools RemoveLostKeys
+    php index.php tools RemoveLostKeys remove
+    php index.php tools RemoveLostKeys remove <wait_period>
+    php index.php tools RemoveLostKeys report
+
+If a database is "reset", a company can be deleted without
+having disabled the AWS encryption keys.  Since we pay monthly
+for those keys, this tool will find those lost keys and schedule
+them for removal.
+
+By default, this application will delete them after a 7 day
+waiting period.  You may select a waiting period between 7-30
+days if you want by adding an additional parameter.
+
+php index.php tools RemoveLostKeys
+  This help screen.
+
+php index.php tools RemoveLostKeys remove
+  Remove all lost keys on the current runtime enviornment.
+
+php index.php tools RemoveLostKeys remove <wait_period>
+  Remove lost keys on the current runtime environment after
+  <waid_period> days. The wait period may be in the range
+  of 7 to 30 days.
+
+php index.php tools RemoveLostKeys report
+  This command will tell you what would be done, but no deletions
+  will be scheduled.
+

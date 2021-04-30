@@ -1,0 +1,1 @@
+update "CompanyCarrier" set "CarrierCode" = ? where "Id" = ?

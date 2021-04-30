@@ -1,0 +1,1 @@
+update "Company" set "CompanyEncryptionKey" = ? where "Id" = ?

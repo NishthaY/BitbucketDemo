@@ -1,0 +1,1 @@
+insert into "Login" ( "UserId", "TwoFactorEnabled", "TwoFactorPhoneNumber", "TwoFactorHash" ) values ( ?, ?, ?, ? )

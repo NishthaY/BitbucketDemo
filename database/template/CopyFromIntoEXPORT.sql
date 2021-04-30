@@ -1,0 +1,5 @@
+\copy
+(
+  {SELECT_STATEMENT}
+)
+TO '{FILENAME}' NULL as '' CSV

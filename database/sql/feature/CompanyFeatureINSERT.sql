@@ -1,0 +1,1 @@
+insert into "CompanyFeature" ( "CompanyId", "FeatureCode", "Enabled", "Target" ) values ( ?,?,?,? )

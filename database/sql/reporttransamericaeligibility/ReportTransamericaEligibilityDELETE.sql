@@ -1,0 +1,1 @@
+delete from "ReportTransamericaEligibility" where "CompanyId" = ? and "ImportDate" = ?

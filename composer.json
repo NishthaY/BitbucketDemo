@@ -1,0 +1,42 @@
+{
+	"repositories": [
+	    {
+	        "packagist": false
+	    },
+	    {
+	        "type": "composer",
+	        "url": "https://packagist.org/"
+	    }
+	],
+	"require": {
+		"php": "^7.4.0",
+		"ext-apcu": "*",
+		"ext-mbstring": "*",
+		"ext-intl": "*",
+		"codeigniter/framework": "^3.1",
+		"jquery-form/form": "^4.0",
+		"aws/aws-sdk-php": "^3.87",
+		"tecnickcom/tcpdf": "^6.0",
+		"sendgrid/sendgrid": "^6.0",
+		"maennchen/zipstream-php": "^0.4.0",
+		"twilio/sdk": "^6.0",
+		"paragonie/random_compat": "^2.0",
+		"phpseclib/phpseclib": "^2.0",
+		"components/jquery-cookie": "^1.4",
+		"pusher/pusher-php-server": "^4.0",
+		"guzzlehttp/guzzle": "^7"
+	},
+	"scripts": {
+        "post-install-cmd": [
+			"rsync -av vendor/codeigniter/framework/system/ system",
+			"rsync -av vendor/codeigniter/framework/index.php index.php",
+			"rsync -av vendor/jquery-form/form/dist/* assets/custom/js",
+			"cp vendor/components/jquery-cookie/jquery.cookie.js assets/custom/js",
+			"rm system/fonts/texb.ttf",
+			"chmod 755 scripts/*.sh",
+			"/bin/bash scripts/deploy-config.sh",
+			"scripts/db_deploy.sh composer"
+		]
+	}
+
+}

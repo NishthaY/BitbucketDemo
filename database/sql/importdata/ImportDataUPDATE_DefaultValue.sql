@@ -1,0 +1,1 @@
+update "ImportData" set "{COLUMN}" = ? where "CompanyId" = ? and "Finalized" = false and coalesce("{COLUMN}",'') = ''

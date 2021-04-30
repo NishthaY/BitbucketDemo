@@ -1,0 +1,1 @@
+select "RecentActivity" from "Wizard" where "CompanyId" = ?

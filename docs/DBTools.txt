@@ -1,0 +1,16 @@
+USAGE:
+    php index.php tools DBTools
+
+A collection of database research tools.
+
+
+php index.php tools DBTools
+  This help screen.
+
+php index.php tools DBTools CountCompanyRecords <company_id>
+  Search the database for tables that have a column called “CompanyId”.
+  Those tables are then checked for records that have a value matching the
+  company_id passed in.  The resulting report will show you how many records
+  belong to the target company in each table.  This tool can be used to
+  make sure all data is being cleaned up appropriately during a rollback.
+

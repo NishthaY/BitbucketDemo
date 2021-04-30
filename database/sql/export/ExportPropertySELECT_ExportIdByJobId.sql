@@ -1,0 +1,1 @@
+select * from "ExportProperty" where "PropertyKey" = 'job_id' and "PropertyValue" = ?

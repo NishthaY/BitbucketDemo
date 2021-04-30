@@ -1,0 +1,1 @@
+select * from "SupportTimer" where "CompanyId" = ? and "ImportDate" = ? and "Tag" = ? and "ParentTag" = ?

@@ -1,0 +1,1 @@
+update "CompanyCarrier" set "UserDescription" = ?, "CarrierNormalized" = trim(upper(?)) where "Id" = ?

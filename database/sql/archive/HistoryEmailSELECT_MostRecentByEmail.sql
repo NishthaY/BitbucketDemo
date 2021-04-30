@@ -1,0 +1,1 @@
+select * from "HistoryEmail" where "ToAddress" = ? order by "SentDate" desc limit 1

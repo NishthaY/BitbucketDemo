@@ -1,0 +1,1 @@
+delete from "CompanyCommissionSummary" where "CompanyId" = ? and "ImportDate" = ?

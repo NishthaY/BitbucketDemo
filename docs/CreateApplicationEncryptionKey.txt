@@ -1,0 +1,15 @@
+USAGE:
+php index.php tools CreateApplicationEncryptionKey
+
+A tool used to create an application encryption key for a new enviornment.
+
+
+php index.php tools CreateApplicationEncryptionKey
+This help screen.
+
+php index.php tools CreateApplicationEncryptionKey create <app-name>
+    Generate a new application encryption key and then output the
+    key in it's secured form.  The provided encyrption key will
+    be the value of the A2P_ENCRYPTION_KEY environment variable
+    for the target environment.
+

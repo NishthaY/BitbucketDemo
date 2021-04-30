@@ -1,0 +1,1 @@
+insert into "SkipMonthProcessing" ( "CompanyId", "ImportDate" ) values ( ?, ? )

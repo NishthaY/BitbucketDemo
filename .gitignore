@@ -1,0 +1,17 @@
+
+vendor
+system
+index.php
+assets/custom/js/jquery.form.js
+application/config/config.php
+application/config/database.php
+.profile
+apache_app.conf
+.idea/*
+.env
+application/controllers/tools/DeveloperSetup.php
+application/logs
+components/
+copy/
+assets/custom/js/jquery*
+Procfile

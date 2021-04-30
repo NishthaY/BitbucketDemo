@@ -1,0 +1,1 @@
+select * from "CompanyCommissionWorker" where "CompanyId" = ? and "ImportDate" = ?

@@ -1,0 +1,1 @@
+delete from "ImportDataDuplicateLives" where "CompanyId" = ? and "ImportDate" = ?

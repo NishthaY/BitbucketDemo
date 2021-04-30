@@ -1,0 +1,1 @@
+select "ImportDate" from "SupportTimer" where "CompanyId" = ? order by "Start" desc limit 1

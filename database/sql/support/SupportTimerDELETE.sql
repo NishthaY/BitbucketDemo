@@ -1,0 +1,1 @@
+delete from "SupportTimer" where "CompanyId" = ? and "ImportDate" = ?

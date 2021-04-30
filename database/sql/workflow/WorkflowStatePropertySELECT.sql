@@ -1,0 +1,1 @@
+select * from "WorkflowStateProperty" where "WorkflowId" = ? and "WorkflowStateId" = ?

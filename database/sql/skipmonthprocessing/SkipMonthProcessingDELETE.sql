@@ -1,0 +1,1 @@
+delete from "SkipMonthProcessing" where "CompanyId" = ? and "ImportDate" = ?

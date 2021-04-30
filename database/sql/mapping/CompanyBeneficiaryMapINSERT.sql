@@ -1,0 +1,1 @@
+insert into "CompanyBeneficiaryMap" ( "CompanyId", "BeneficiaryNormalized", "UserDescription", "ColumnCode" ) values ( ?,?,?,? )

@@ -1,0 +1,1 @@
+select * from "ExportProperty" where "ExportId" = ? order by "PropertyKey" asc

@@ -1,0 +1,1 @@
+select count(*) as "count" from "KeyPool" where "Enabled" = true

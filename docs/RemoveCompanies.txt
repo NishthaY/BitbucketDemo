@@ -1,0 +1,24 @@
+USAGE:
+    php index.php tools RemoveCompanies
+    php index.php tools RemoveCompanies execute
+
+This tool can be used as a way to remove a large batch of companies that have been
+generated on various test levels.  When this interactive script is executed all
+companies and parent companies will be removed except for the Transamerica
+parent company, all of the children companies of Transamerica and the Advice2Pay
+company.
+
+In development, this script can easily be modified to fit a different set of
+removal requirements.  I suggest you review the code before you run this script
+to make sure developers have not changed the hard coded values.  This is an interactive
+tool so you will be asked to confirm the removals.
+
+Please, do not delete the Advice2Pay company ( company_id=1 ).
+
+php index.php tools RemoveCompanies
+  This help screen.
+
+php index.php tools RemoveCompanies execute
+  Remove all companies and parents preserving the hard coded "keepers" in the tool.
+
+

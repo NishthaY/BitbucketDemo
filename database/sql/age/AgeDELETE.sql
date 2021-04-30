@@ -1,0 +1,4 @@
+delete from "Age"
+where
+	"Age"."CompanyId" = ?
+    and "Age"."ImportDate" = ?

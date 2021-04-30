@@ -1,0 +1,1 @@
+delete from "CompanyBeneficiaryMap" where "CompanyId" = ? and "ColumnCode" = ?

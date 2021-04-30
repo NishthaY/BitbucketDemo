@@ -1,0 +1,1 @@
+delete from "CompanyParentImportData" where "CompanyParentId" = ?

@@ -1,0 +1,1 @@
+select * from "CompanyFileTransfer" where "CompanyId" = ?

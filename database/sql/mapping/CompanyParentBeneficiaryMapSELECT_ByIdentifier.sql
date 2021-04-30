@@ -1,0 +1,1 @@
+select "Id", "BeneficiaryNormalized" as "Token", "UserDescription" from "CompanyParentBeneficiaryMap" where "CompanyParentId" = ? and "ColumnCode" = ?

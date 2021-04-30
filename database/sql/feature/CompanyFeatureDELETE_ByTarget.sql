@@ -1,0 +1,1 @@
+delete from "CompanyFeature" where "CompanyId" = ? and "FeatureCode" = ? and "Target" = ?

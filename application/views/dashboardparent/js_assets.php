@@ -1,0 +1,9 @@
+<script src="<?=base_url();?>assets/custom/js/dashboardparent/widget_multi_company.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboardparent/notifications.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboardparent/import_data.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/companies/companies.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/report_download_list.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/getting_started.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/review.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/s3_upload.js<?=CachedQS()?>"></script>
+<script src="<?=base_url();?>assets/custom/js/dashboard/skip_month.js<?=CachedQS()?>"></script>

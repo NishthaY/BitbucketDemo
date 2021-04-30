@@ -1,0 +1,2 @@
+<script type="text/javascript" src="<?=base_url();?>assets/custom/js/workflows/shared.js<?=CachedQS()?>"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/custom/js/samplewaiting/samplewaiting.js<?=CachedQS()?>"></script>

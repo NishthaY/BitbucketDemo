@@ -1,0 +1,1 @@
+select * from "KeyPool" where "Name" = 'reserved' and "Enabled" = false and coalesce("EncryptionKey", '')  = '' order by "Id" desc limit 1

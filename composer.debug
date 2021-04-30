@@ -1,0 +1,12 @@
+{
+	"require": {
+		"codeigniter/framework": "^7.4.0"
+	},
+	"scripts": {
+        "post-install-cmd": [
+			"rsync -av vendor/codeigniter/framework/system/ system",
+			"rsync -av vendor/codeigniter/framework/index.php index.php"
+		]
+	}
+
+}

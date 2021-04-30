@@ -1,0 +1,1 @@
+select "RecentStatusUpdate" from "Wizard" where "CompanyId" = ?

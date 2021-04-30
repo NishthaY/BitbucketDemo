@@ -1,0 +1,1 @@
+select * from "Carrier" where "CarrierCode" = upper(?)

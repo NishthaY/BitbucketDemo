@@ -1,0 +1,1 @@
+delete from "WorkflowProgressProperty" where "WorkflowId" = ? and "Identifier" = ? and "IdentifierType" = ?

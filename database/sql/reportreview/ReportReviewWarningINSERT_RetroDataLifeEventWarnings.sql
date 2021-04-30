@@ -1,0 +1,2 @@
+insert into "ReportReviewWarnings" ( "CompanyId", "ImportDataId", "ImportDate", "Issue", "Confirm" )
+select "CompanyId", "ImportDataId", "ImportDate", "Issue", false from "RetroDataLifeEventWarning" where "CompanyId" = ? and "ImportDate" = ?

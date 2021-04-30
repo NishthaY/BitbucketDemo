@@ -1,0 +1,1 @@
+select "EmployeeId" from "ImportData" where "CompanyId" = ? and "ImportDate" = ? and "EmployeeId" is not null limit 1

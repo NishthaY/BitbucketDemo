@@ -1,0 +1,1 @@
+delete from "ReportTransamericaEligibilityDetailsWorker" where "CompanyId" = ? and "ImportDate" = ?

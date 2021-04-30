@@ -1,0 +1,767 @@
+/*
+    Colors!
+    #26438B -- Dark Blue Logo
+    #0AAEEA -- Light Blue Logo
+*/
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+/* Div containing the top of each page that contains the header
+   and action buttons on the right */
+.form-header {
+    padding-bottom: 10px;
+}
+
+/* Add some space between primary and default button on a form. */
+form button.pull-right.btn-default {
+    margin-right: 5px;
+}
+
+/* Helper Styles  */
+.p-t-0 { padding-top: 0px !important; }
+.p-t-5 { padding-top: 15px; }
+.p-t-10 { padding-top: 15px; }
+.p-t-15 { padding-top: 15px; }
+.p-t-20 { padding-top: 20px; }
+.p-t-25 { padding-top: 25px; }
+.p-t-30 { padding-top: 30px; }
+.p-t-35 { padding-top: 35px; }
+.p-t-40 { padding-top: 40px; }
+.p-t-45 { padding-top: 45px; }
+.p-t-50 { padding-top: 50px; }
+
+.p-b-0 { padding-bottom: 0px !important; }
+.p-b-5 { padding-bottom: 15px; }
+.p-b-10 { padding-bottom: 15px; }
+.p-b-15 { padding-bottom: 15px; }
+.p-b-20 { padding-bottom: 20px; }
+.p-b-25 { padding-bottom: 25px; }
+.p-b-30 { padding-bottom: 30px; }
+.p-b-35 { padding-bottom: 35px; }
+.p-b-40 { padding-bottom: 40px; }
+.p-b-45 { padding-bottom: 45px; }
+.p-b-50 { padding-bottom: 50px; }
+
+.p-l-0 { padding-left: 0px !important; }
+.p-l-5 { padding-left: 15px; }
+.p-l-10 { padding-left: 15px; }
+.p-l-15 { padding-left: 15px; }
+.p-l-20 { padding-left: 20px; }
+.p-l-25 { padding-left: 25px; }
+.p-l-30 { padding-left: 30px; }
+.p-l-35 { padding-left: 35px; }
+.p-l-40 { padding-left: 40px; }
+.p-l-45 { padding-left: 45px; }
+.p-l-50 { padding-left: 50px; }
+
+.p-r-0 { padding-right: 0px !important; }
+.p-r-5 { padding-right: 15px; }
+.p-r-10 { padding-right: 15px; }
+.p-r-15 { padding-right: 15px; }
+.p-r-20 { padding-right: 20px; }
+.p-r-25 { padding-right: 25px; }
+.p-r-30 { padding-right: 30px; }
+.p-r-35 { padding-right: 35px; }
+.p-r-40 { padding-right: 40px; }
+.p-r-45 { padding-right: 45px; }
+.p-r-50 { padding-right: 50px; }
+
+.m-t-0 { margin-top: 0px !important; }
+.m-t-5 { margin-top: 15px; }
+.m-t-10 { margin-top: 15px; }
+.m-t-15 { margin-top: 15px; }
+.m-t-20 { margin-top: 20px; }
+.m-t-25 { margin-top: 25px; }
+.m-t-30 { margin-top: 30px; }
+.m-t-35 { margin-top: 35px; }
+.m-t-40 { margin-top: 40px; }
+.m-t-45 { margin-top: 45px; }
+.m-t-50 { margin-top: 50px; }
+
+.m-b-0 { margin-bottom: 0px !important; }
+.m-b-5 { margin-bottom: 15px; }
+.m-b-10 { margin-bottom: 15px; }
+.m-b-15 { margin-bottom: 15px; }
+.m-b-20 { margin-bottom: 20px; }
+.m-b-25 { margin-bottom: 25px; }
+.m-b-30 { margin-bottom: 30px; }
+.m-b-35 { margin-bottom: 35px; }
+.m-b-40 { margin-bottom: 40px; }
+.m-b-45 { margin-bottom: 45px; }
+.m-b-50 { margin-bottom: 50px; }
+
+.m-l-0 { margin-left: 0px !important; }
+.m-l-5 { margin-left: 15px; }
+.m-l-10 { margin-left: 15px; }
+.m-l-15 { margin-left: 15px; }
+.m-l-20 { margin-left: 20px; }
+.m-l-25 { margin-left: 25px; }
+.m-l-30 { margin-left: 30px; }
+.m-l-35 { margin-left: 35px; }
+.m-l-40 { margin-left: 40px; }
+.m-l-45 { margin-left: 45px; }
+.m-l-50 { margin-left: 50px; }
+
+.m-r-0 { margin-right: 0px !important; }
+.m-r-5 { margin-right: 15px; }
+.m-r-10 { margin-right: 15px; }
+.m-r-15 { margin-right: 15px; }
+.m-r-20 { margin-right: 20px; }
+.m-r-25 { margin-right: 25px; }
+.m-r-30 { margin-right: 30px; }
+.m-r-35 { margin-right: 35px; }
+.m-r-40 { margin-right: 40px; }
+.m-r-45 { margin-right: 45px; }
+.m-r-50 { margin-right: 50px; }
+
+
+
+.uiform-checkbox-inline-desc {
+    cursor: pointer;
+}
+
+
+/* Make custom text that nice dark blue color */
+.text-custom {
+  color: #26438B;
+}
+
+/* Custom-modal */
+/* Replaced the modal-demo class from ubold with our version now called
+   form-modal.  This defines what the form modal boxes look like
+*/
+.uiform-modal {
+    background-color: #FFF;
+    width: 800px;
+    .border-radius(4px);
+    display: none;
+}
+.uiform-modal .close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: #eeeeee;
+}
+
+.alert-wizard {
+  background-image: -webkit-linear-gradient(top, #3399cc 0%, #2f8dbc 100%);
+  background-image:      -o-linear-gradient(top, #3399cc 0%, #2f8dbc 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3399cc), to(#2f8dbc));
+  background-image:         linear-gradient(to bottom, #3399cc 0%, #2f8dbc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3399cc', endColorstr='#ff2f8dbc', GradientType=0);
+  background-repeat: repeat-x;
+  border-color: #2b81ad;
+  color: white !important;
+}
+tr.sample-data-header td {
+    font-style:italic;
+    color: #ccc;
+}
+td.sample-data-header {
+    font-style:italic;
+    color: #ccc;
+}
+td.danger-cell {
+    cursor: pointer;
+    position: relative;
+    background-color: #C0392B;
+    color: white;
+}
+.danger-cell-icon {
+    color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 5px;
+    padding-right: 5px;
+    opacity: 0.5;
+    color: white;
+}
+
+/* Upload Review */
+#upload_review_table .row [class*="col-"]{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+#upload_review_table .row{
+  overflow: hidden;
+}
+#upload_review_table div.line {
+    border-top: 1px solid #999;
+}
+#upload_review_table div.col {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#upload_review_table div.line-right {
+    border-right: 1px solid #f1f1f1;
+}
+#upload_review_table div.dimished-line {
+    border-top: 1px solid #f1f1f1;
+}
+/* Relationship Review */
+#relationships_review_table .row [class*="col-"]{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+#relationships_review_table .row{
+  overflow: hidden;
+}
+#relationships_review_table div.line {
+    border-top: 1px solid #999;
+}
+#relationships_review_table div.col {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#relationships_review_table div.line-right {
+    border-right: 1px solid #f1f1f1;
+}
+#relationships_review_table div.dimished-line {
+    border-top: 1px solid #f1f1f1;
+}
+span.question-indicator-inline {
+    color: #FF8C00;
+    padding-right: 5px;
+    cursor: pointer;
+}
+span.question-indicator {
+    color: #FF8C00;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+span.okay-indicator {
+    color: #008000;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.form-border {
+    border:1px solid #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+div.ageband-form-container {
+
+}
+div.ageband-form-container input {
+    width: 100px !important;
+}
+div.agetype-form-container input {
+    width: 130px !important;
+}
+#age_calculation_type_disabled {
+    width: 340px !important;
+}
+.row-delete-icon {
+    font-size: 1.2em;
+    padding-left: 10px;
+    cursor: pointer;
+}
+#age_band_container button {
+    margin-right: 32px;
+}
+.report-review-btn {
+    cursor: pointer;
+}
+
+#adjustments_table tr td:last-child {
+    white-space: nowrap;
+    width: 165px;
+}
+.delete-manual-adjustment-btn{
+    width: 70px;
+}
+.edit-manual-adjustment-btn{
+    width: 70px;
+}
+.table-action{
+    cursor:pointer;
+}
+span.relationship-question-indicator {
+    color: #FF8C00;
+    margin-left: 10px;
+}
+
+/* Make the enable/disable button stick to a specific with since
+   the text on the button will toggle and result in different sized
+   buttons */
+.action-cell-remove{
+    width: 75px;
+}
+table.dataTable th {
+    border: none !important;
+}
+table.dataTable {
+    border: none !important;
+}
+.clickable-widget{
+    cursor:pointer;
+}
+tr.disabled-row td {
+    color: silver;
+    font-style: italic;
+    font-weight: normal;;
+}
+
+/*
+    Scrollable Menus
+    add a scrollable-menu tag to the UL element in
+    a boostrap dropdown to make them srollable to
+    a specific height.
+*/
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+.scrollable-menu-lg {
+    height: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+}
+
+/*
+    Working Button
+    A working button appears to be gray in color.
+*/
+.btn-working {
+ background-color: #999 !important;
+ border: 1px solid #999 !important;
+ color: white !important;
+}
+.btn-working:hover,
+.btn-working:focus,
+.btn-working:active,
+.open > .dropdown-toggle.btn-working {
+  background-color: #262626 !important;
+  border: 1px solid #262626 !important;
+}
+
+/* A responsive button will wrap on words if need growing the button taller */
+.btn-responsive {
+    white-space: normal !important;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+/* The plan settings screen has a table full of data.  Some
+of that data is encased in a button.  This will pad the top
+of the text so that the text and button text line up. */
+.plansetting-text {
+    margin-top: 7px;
+}
+
+
+/* Life Review */
+.clickable-life {
+    cursor:pointer;
+}
+.life-compare-disabled {
+    color: silver;
+    font-style: italic;
+}
+
+/* Data Clarifications */
+.clickable-clarifications {
+    cursor:pointer;
+}
+
+
+.clickable-header-breadcrumb {
+    cursor: pointer !important;
+    color: #337ab7;
+}
+
+
+/* SCROLL BUMPERS
+   Contain and draw scoll bumpers over a horizontally scrolling area that
+   is responsive.
+*/
+.scroll-bumper-container {
+  position: relative;
+}
+.scroll-bumper-button {
+    position: absolute;
+    width: 40px;
+    cursor: pointer;
+    z-index: 20;
+    padding-top: 200px;
+    font-size: 40px;
+    color: #0AAEEA;
+    text-align: center
+}
+.scroll-bumper-button:hover {
+    color: #26438B;
+}
+.scroll-bumper-button-right {
+    right: 0;
+}
+.scroll-bumper-button-left {
+    left: 0;
+}
+.scroll-bumper-right {
+    content: '';
+    position: absolute;
+    background-image:
+      linear-gradient(
+      to left,
+      #d9d9d9,
+      transparent
+      );
+    height: 100%;
+    width: 30px;
+    right: 0;
+    cursor: pointer;
+    z-index: 10;
+}
+.scroll-bumper-left {
+    content: '';
+    position: absolute;
+    background-image:
+      linear-gradient(
+      to right,
+      #d9d9d9,
+      transparent
+      );
+    height: 100%;
+    width: 30px;
+    left: 0;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+.app-option-box {
+  max-height: 165px;
+  min-height: 165px;
+}
+
+.pg-option-box {
+    max-height: 80px;
+    min-height: 80px;
+}
+
+/*
+    Report Review Modal Dialog
+ */
+.download-report-row-container {
+    margin-top: 10px;
+}
+.download-row-info-btn {
+    width: 70px;
+}
+.download-row-less-btn {
+    width: 70px;
+}
+.download-help {
+    margin-top: 10px;
+}
+
+.grayBorder{ border: 1px solid silver; }
+.grayBorder-b{ border-bottom: 1px solid silver; }
+.grayBorder-t{ border-top: 1px solid silver; }
+.grayBorder-l{ border-left: 1px solid silver; }
+.grayBorder-r{ border-right: 1px solid silver; }
+
+.feature-configuration-link {
+    cursor: pointer;
+}
+.matching-item {
+    font-weight:normal;
+}
+.matching-item-action {
+    font-style: italic;
+}
+.matching-item.required a{
+    font-weight: bold;
+}
+.matching-item.conditional a{
+    font-weight: bold;
+}
+.matching-item.recommended a{
+    font-weight: normal;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+.matching-item.selected span {
+    color: slategray;
+}
+.a2p-blue {
+    color: #0AAEEA;
+}
+.a2p-disabled {
+    color: #d9d9d9;
+}
+.bg-icon-a2p {
+    border: 1px solid #0AAEEA;
+}
+.bg-icon-disabled {
+    border: 1px solid #d9d9d9;
+}
+.alert-a2p {
+    background-color: #0AAEEA;
+    border-color: #0AAEEA;
+    color: white;
+}
+.support-timer-row {
+    cursor: pointer;
+}
+
+/* Multi Company Widget */
+#multi_company_table {
+    margin-top: 15px;
+}
+#multi_company_table > tbody > tr > td > div > span.company-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+#multi_company_table > tbody > tr > td.action-cell > div.action-buttons  {
+    margin-top: 10px;
+}
+#multi_company_table > tbody > tr > td > div.checkbox-wrapper  {
+    margin-top: 10px;
+}
+#multi_company_table > tbody > tr > td.checkbox-column {
+    width: 20px;
+}
+#multi_company_table > tbody > tr > td > div.runtime-error {
+    color: #C0392B;
+}
+.multi-company-top-button-dropdown > ul.dropdown-menu
+{
+    top: 47px;
+    left: 10px;
+}
+.multi-company-top-button-dropdown ul.dropdown-menu > li
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.multi-company-top-button-dropdown ul.dropdown-menu > li:hover
+{
+    color: #26438B;
+    background-color: #F0F0F0;
+}
+span.parent-report-review-button-container {
+    position: relative;
+}
+span.parent-report-review-button-container > ul.dropdown-menu {
+    position: absolute;
+    margin-left: -100px;
+    right:0;
+    top:21px;
+}
+
+span.dropdown-action-button-container {
+    position: relative;
+}
+span.dropdown-action-button-container > ul.dropdown-menu {
+    position: absolute;
+    top:23px;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.parent-report-review-flex-parent {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border-top: 1px solid #EBEFF2;
+}
+.parent-report-review-flex-a {
+    width: 100%;
+}
+.parent-report-review-flex-b {
+    width: 200px;
+    padding-left: 3px;
+}
+table.parent-report-review {
+    border-top: none;
+}
+div.process-report-box
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+}
+div.process-report-box > div.title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    padding-bottom: 8px;
+}
+div.process-report-box > div.line {
+    padding: 3px;
+}
+div.process-report-box > div.line > a {
+    cursor: pointer;
+}
+div.process-report-box > div.line > i.md-warning {
+    color: #C0392B;
+    font-size: 1.2em;
+}
+div.process-report-box > div.line > i.glyphicon-question-sign {
+    color: #FF8C00;
+    font-size: 1.2em;
+}
+div.process-report-box > div.line > i.disabled {
+    color: #797979;
+}
+.pointer {
+    cursor: pointer;
+}
+
+
+
+
+/* Parent Company Map */
+#companyparent_map_panel {
+    min-height: 275px;
+}
+#comapanyparent_map_company_table .row [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+#comapanyparent_map_company_table .row{
+    overflow: hidden;
+}
+#comapanyparent_map_company_table div.line {
+    border-top: 1px solid #999;
+}
+#comapanyparent_map_company_table div.col {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#comapanyparent_map_company_table div.line-right {
+    border-right: 1px solid #f1f1f1;
+}
+#comapanyparent_map_company_table div.dimished-line {
+    border-top: 1px solid #f1f1f1;
+}
+#comapanyparent_map_company_table div.radio {
+    cursor: pointer;
+    padding-top: 3px;
+    padding-left: 35px;
+}
+
+div.runtime-error {
+    color: #C0392B;
+    font-style: italic;
+}
+
+td.status-column {
+    border-top: none;
+    border-bottom: none;
+    width: 15px;
+}
+i.md-border-circle {
+    height: 10px;
+    width: 10px;
+    margin-top: 16px;
+}
+.status-indicator {
+    border-color: transparent;
+    background-color: transparent;
+}
+.status-indicator-working {
+    border-color: #81c868;
+    background-color: #81c868;
+}
+.status-indicator-attention {
+    border-color: #0AAEEA;
+    background-color: #0AAEEA;
+}
+.multioptionbutton-warning-icon
+{
+    color: #C0392B;
+}
+.multioptionbutton-success-icon
+{
+    color: white;
+}
+.status-indicator-disabled {
+    border-color: #d9d9d9;
+    background-color: #d9d9d9;
+}
+.status-indicator-warning {
+    border-color: #FF8C00;
+    background-color: #FF8C00;
+}
+.status-indicator-alert {
+    border-color: #C0392B;
+    background-color: #C0392B;
+}
+.status-indicator-noresults {
+    border-color: #999;
+    background-color: #999;
+}
+.status-indicator-none {
+    visibility: hidden;
+}
+.invoice-report-cell {
+    padding-top: 10px;
+    margin-bottom: 8px;
+}
+
+/* Enterprise Banner */
+div.enterprise-banner {
+    height: 50px;
+    background-color: #26438B;
+    color: white;
+}
+div.enterprise-banner-padding {
+    margin-top: 50px;
+}
+div.enterprise-banner-no-padding {
+    margin-top: 0px;
+}
+div.enterprise-banner > button.close {
+    color: white;
+    padding-right: 25px;
+    padding-top: 12px;
+}
+div.enterprise-text {
+    padding-top: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cd-timeline-img.cd-a2p {
+    background: #0AAEEA;
+}
+
+.popover .popover-title {
+    background-color: transparent;
+    color: #26438B;
+    font-weight: 600;
+}
+
+/* Settings Widget */
+a.settings-widget-button:hover {
+    background-color: #26438B !important;
+    color: white;
+    cursor: pointer;
+}
+

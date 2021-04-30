@@ -1,0 +1,12 @@
+USAGE:
+    php index.php tools TransamericaCommissions
+
+This tool will rollback and rebuild ALL transamerica commission reports for
+the specified company or all Transamerica companies.
+
+php index.php tools TransamericaCommissions
+  This help screen.
+
+php index.php tools TransamericaCommissions execute
+  Start the interactive process.
+

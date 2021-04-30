@@ -1,0 +1,1 @@
+delete from "CompanyCommissionWorker" where "CompanyId" = ? and "ImportDate" = ?

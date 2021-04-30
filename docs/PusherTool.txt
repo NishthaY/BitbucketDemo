@@ -1,0 +1,13 @@
+USAGE:
+    php index.php tools PusherTool
+    php index.php tools PusherTool push
+
+An interactive tool that will allow you to trigger a pusher notification to the dashboard
+of a specific company.
+
+php index.php tools PusherTool
+  This help screen.
+
+php index.php tools PusherTool push
+  Test pusher communications by triggering an 'alert' message on all browsers
+  viewing the specified company dashboard.

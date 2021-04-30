@@ -1,0 +1,1 @@
+select * from "CompanyParentBestMappedColumn" where "CompanyParentId" = ? and "ColumnNumber" = ?

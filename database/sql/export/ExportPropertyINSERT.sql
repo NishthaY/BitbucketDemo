@@ -1,0 +1,1 @@
+insert into "ExportProperty" ( "ExportId", "PropertyKey", "PropertyValue" ) values ( ?,?,? )

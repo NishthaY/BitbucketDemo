@@ -1,0 +1,1 @@
+insert into "CompanyCommission" ( "CompanyId", "ImportDate", "LifeId", "CarrierId", "PlanTypeId", "PlanId", "CommissionEffectiveDate", "CommissionablePremium", "ResetRecord") values ( ?,?,?,?,?,?,?,?,? )

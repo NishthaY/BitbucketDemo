@@ -1,0 +1,1 @@
+select * from "KeyPool" where "Enabled" = true order by "Id" asc

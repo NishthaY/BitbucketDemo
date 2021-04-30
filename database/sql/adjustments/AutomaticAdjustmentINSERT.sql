@@ -1,0 +1,16 @@
+insert into "AutomaticAdjustment" (
+    "CompanyId"
+    , "ImportDate"
+    , "TargetDate"
+    , "RetroDataId"
+    , "LifeId"
+    , "CarrierId"
+    , "PlanTypeId"
+    , "PlanId"
+    , "CoverageTierId"
+    , "AdjustmentType"
+    , "Volume"
+    , "MonthlyCost"
+    , "Memo"
+    , "ParentRetroDataId"
+) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )

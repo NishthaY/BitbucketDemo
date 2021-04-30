@@ -1,0 +1,15 @@
+USAGE:
+    php index.php tools FileTransfer
+    php index.php tools FileTransfer resend
+
+An interactive tool that will allow you to resend via SFTP a specific report
+for a given company.
+
+DEPRECATED: This functionality is now available in the application UI.
+
+
+php index.php tools FileTransfer
+  This help screen.
+
+php index.php tools FileTransfer resend
+  Interactive tool that will allow you to resend a specific report for a given company and month.

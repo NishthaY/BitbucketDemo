@@ -1,0 +1,1 @@
+select * from "Feature" where "Targetable" = true and "CompanyParentFlg" = true;

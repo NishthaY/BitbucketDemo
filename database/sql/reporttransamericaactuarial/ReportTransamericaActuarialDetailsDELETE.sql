@@ -1,0 +1,1 @@
+delete from "ReportTransamericaActuarialDetails" where "CompanyId" = ? and "ImportDate" = ?

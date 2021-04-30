@@ -1,0 +1,1 @@
+select DISTINCT("UserDescription") as "UserDescription" from "CompanyPlanType" where "CompanyId" = ? and "PlanTypeCode" = ?

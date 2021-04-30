@@ -1,0 +1,1 @@
+insert into "UserResponsibleForCompany" ( "UserId", "CompanyId", "ParentCompanyId" ) values ( ?,?,? )

@@ -1,0 +1,1 @@
+delete from "LifeOriginalEffectiveDateWarning" where "CompanyId" = ? and "ImportDate" = ?

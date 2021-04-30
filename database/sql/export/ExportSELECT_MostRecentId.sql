@@ -1,0 +1,1 @@
+select "Id" from "Export" where "Identifier" = ? and "IdentifierType" = ? order by "Created" desc limit 1

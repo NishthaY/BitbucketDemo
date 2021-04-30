@@ -1,0 +1,12 @@
+USAGE:
+    php index.php tools RotateKey rotate
+    php index.php tools RotateKey rotate all
+
+This tool will allow you to rotate a specific company or
+all companies on the runtime A2P environment.
+
+php index.php tools RotateKey rotate
+Interact with the command line to choose the company you want to rotate.
+
+php index.php tools RotateKey rotate all
+All keys on the runtime A2P environment will be rotated.

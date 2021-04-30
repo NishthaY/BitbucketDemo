@@ -1,0 +1,26 @@
+@import "named_variables.scss";
+
+span.multi-option-btn-container {
+
+  // Thin left line between the dropdown trigger and the button trigger.
+  // This will be colored just a touch lighter than the button where
+  // applicable.  Else, it will be a very light gray.
+  .btn-offset-primary {
+    border-left: 1px solid #33BFF2 !important;
+    //opacity: 0.8; // #33BFF2
+  }
+  .btn-offset-white {
+    border-left: 1px solid #EAEAEA !important;
+    // match the border on a white button.
+  }
+  .btn-offset-secondary {
+    border-left: 1px solid #EAEAEA !important;
+    // match the border on a white button.
+  }
+  .btn-offset-working {
+    border-left: 1px solid #ADADAD !important;
+    //opacity: 0.8; // #ADADAD
+  }
+
+
+}

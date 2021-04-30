@@ -1,0 +1,1 @@
+update "CompanyFeature" set "Enabled" = ? where "CompanyId" = ? and "FeatureCode" = ? and ( "Target" = ? OR "Target" is null )

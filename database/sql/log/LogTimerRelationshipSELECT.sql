@@ -1,0 +1,1 @@
+select * from "LogTimerRelationship" where "CompanyId" = ?

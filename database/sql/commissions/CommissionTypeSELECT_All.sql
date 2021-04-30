@@ -1,0 +1,1 @@
+select * from "CommissionType" order by "Id" asc

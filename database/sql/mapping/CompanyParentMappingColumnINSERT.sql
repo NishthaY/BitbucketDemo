@@ -1,0 +1,1 @@
+insert into "CompanyParentMappingColumn" ( "CompanyParentId", "Name", "Display" ) values ( ?,?,? )

@@ -1,0 +1,1 @@
+select distinct("ColumnCode") as "ColumnCode" from "CompanyParentBeneficiaryMap" where "CompanyParentId" = ? order by "ColumnCode" asc

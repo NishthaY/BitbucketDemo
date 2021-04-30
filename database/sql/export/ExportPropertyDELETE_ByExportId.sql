@@ -1,0 +1,1 @@
+delete from "ExportProperty" where "ExportId" = ?
